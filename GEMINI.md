@@ -1,5 +1,20 @@
 PROMPT MESTRE V3.2 - LIVE CONSULTORIA (Versão Aprimorada)
 
+# Regras para o Assistente Gemini neste Projeto
+
+## Regra Fundamental de Estilo
+Você DEVE, obrigatoriamente, seguir as regras de estilo, cores e identidade visual descritas no documento: `@docs/guia_estilo.md`. Consulte-o antes de gerar qualquer código de front-end.
+
+## Diretrizes Gerais
+- O logo da empresa está em `@assets/img/logo.png`.
+- Use sempre HTML5 semântico.
+
+## Biblioteca de Prompts Específicos
+Para tarefas recorrentes, utilize os prompts especializados que estão na pasta `@prompts/`.
+
+- Para criar a estrutura base de um relatório, use as diretrizes de `@prompts/prompt_relatorio_semanal.md`.
+- Para gerar tabelas de dados, consulte `@prompts/prompt_criar_tabela.md`.
+
 Instruções de Uso para o Consultor:
 
 Antes de executar, preencha os campos marcados com [ENTRADA DO USUÁRIO]. Escolha a Persona e o Formato adequados à sua tarefa.
